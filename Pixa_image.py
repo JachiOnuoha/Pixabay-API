@@ -4,14 +4,13 @@
 # Copyright © 2019 Jachimike Onuoha. All rights reserved.
 
 from pixabay import Image, Video
-from Settings import myKey
 import urllib.request
 import pprint
 import os
 
 # Assign your Api key to the environment variable "PIXABAY_API_KEY" and the working variable API_KEY
-os.environ["PIXABAY_API_KEY"] = myKey
-API_KEY = myKey
+os.environ["PIXABAY_API_KEY"] = YOUR_API_KEY
+API_KEY = YOUR_API_KEY
 
 # Search for any image using the Image query
 Image = Image(API_KEY)
